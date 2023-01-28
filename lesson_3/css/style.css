@@ -1,7 +1,7 @@
 @import url("reset.css");
 
   * {
-	color:burlywood)
+	color:burlywood;
 } 
 
 div {
@@ -22,7 +22,7 @@ div.text {
 
 .content-footer,.list {
 	color: yellowgreen;
-}.
+}
 
 .text .lesson {
 color: aquamarine;
