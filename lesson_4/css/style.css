@@ -26,60 +26,75 @@
 
 
 .title {
+  text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 10px;
   font-family: 'Paprika', cursive;
   font-size: 48px;
-  color: #1f7909;
+  color: rgba(55, 168, 51, 0.5);
 }
 
 .text {
+  text-align: center;
   font-family: "Hotlady-Regular", monospace ;
   color: blue;
 }
 
 .text-content {
+  text-decoration: line-through;
   font-family: "Hotlady-Book", monospace ;
   color: rebeccapurple;
 }
 
 .text-content-content {
+  text-decoration: overline;
   font-family: 'PT Sans', sans-serif;
   color: black;
 }
 
 .main {
+  text-decoration: underline;
   font-family: 'Roboto Mono', monospace;
   color: red;
 }
 
 .main-content {
+  text-shadow: 2px 2px 5px #000, -2px -2px 2px royalblue;
   font-family: 'Ubuntu', sans-serif;
   color: royalblue;
 }
 
 .main-content-content {
+  text-transform: uppercase;
   font-family: 'Mukta', sans-serif;
   font-weight: 300;
   color: rebeccapurple;
 }
 
 .footer {
+  font-size: 12px;
+	line-height: 1.7;
   font-family: 'Mukta', sans-serif;
   font-weight: 400;
   color: yellowgreen;
 }
 
 .footer-content {
+  word-spacing: 10px;
+  text-indent: 20px;
   font-family:'Karla', sans-serif; ;
   color: rosybrown;
 }
 
 .footer-content-content {
+  white-space: nowrap;
   font-family:'Karla', sans-serif; ;
   font-style: italic;
   color: royalblue;
 }
 
 h5 {
+  
   font-family: "Paprika", cursive ;
   font-size: 24px;
   color: red;
