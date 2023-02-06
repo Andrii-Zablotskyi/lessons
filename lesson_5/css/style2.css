@@ -1,0 +1,84 @@
+@import url("reset.css");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap");
+
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: #e5e5e5;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+.header {
+  max-width: 816px;
+  margin: 0 auto;
+}
+.header-text {
+  background-color: chartreuse;
+  padding: 10px;
+  max-width: 400px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 40px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.block {
+  max-width: 816px;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+.block > p {
+  background-color: aqua;
+}
+
+.img-1 {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  min-height: 450px;
+  margin-top: 80px;
+}
+
+.block-2 {
+  max-width: 816px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+.block-text-2 {
+  max-width: 605px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 40px;
+}
+
+.block__text-text-2 {
+  max-width: 816px;
+  max-height: 150px;
+  margin: 0 auto;
+  margin-top: 40px;
+  overflow-y: scroll;
+}
+
+.content {
+  font-size: 0;
+  margin-top: 80px;
+}
+.content-image {
+  display: inline-block;
+  max-width: 100%;
+  margin-left: 119px;
+  vertical-align: bottom;
+}
+
+.footer {
+  max-width: 816px;
+  margin: 0 auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
