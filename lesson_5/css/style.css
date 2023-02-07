@@ -6,10 +6,6 @@ body {
   margin: 0 auto;
   background-color: #e5e5e5;
   font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  font-size: 14px;
-  line-height: 25px;
-  color: #6C757D;
 }
 
 .page2 {
@@ -20,6 +16,11 @@ body {
 
 p {
   margin-top:10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 25px;
+  color: #6C757D;
 }
 
 .header {
