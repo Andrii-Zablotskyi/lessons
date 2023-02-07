@@ -9,6 +9,10 @@ body {
   font-weight: 300;
 }
 
+p {
+  margin-top:10px;
+}
+
 .header {
   max-width: 816px;
   margin: 0 auto;
