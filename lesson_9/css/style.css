@@ -1,0 +1,74 @@
+@import url("reset.css");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap");
+body {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.75;
+  text-transform: capitalize;
+  color: #637381;
+  padding: 0 15px;
+}
+p:hover {
+  text-decoration: underline;
+}
+.header {
+  min-height: 175px;
+  background-color: aqua;
+}
+.icons__group {
+  padding: 10px;
+  border-radius: 5px;
+  border: 5px solid rgb(92, 13, 13);
+}
+.icons {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 2px solid green;
+}
+.icons:hover {
+  border: 2px solid greenyellow;
+  transform: scale(1.1);
+}
+/* __________________________________________ */
+.design {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 2px solid green;
+}
+.design:hover {
+  border: 2px solid greenyellow;
+  transform: scale(1.1);
+}
+.main {
+  min-height: 175px;
+  background-color: sandybrown;
+}
+.design__group {
+  padding: 10px;
+  border-radius: 5px;
+  border: 5px solid rgb(173, 63, 63);
+}
+/* __________________________________________ */
+.footer {
+  min-height: 175px;
+  background-color: snow;
+}
+.content__group {
+  padding: 10px;
+  border-radius: 5px;
+  border: 5px solid rgb(22, 9, 9);
+}
+.photo {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 2px solid green;
+}
+.photo:hover {
+  border: 2px solid greenyellow;
+  transform: scale(1.01);
+}
