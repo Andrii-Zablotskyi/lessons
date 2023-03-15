@@ -1,6 +1,5 @@
 @import url("reset.css");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap");
 
 body {
   font-family: "Inter", sans-serif;
@@ -301,7 +300,7 @@ body {
   position: absolute;
   left: 20%;
   right: 20%;
-  top: 55%;
+  top: 60%;
 }
 .page__span-two {
   position: relative;
