@@ -41,6 +41,7 @@ h2{
 .content__block {
 	margin: 0px 20px 10px 0px;
 	display: inline-block;
+	vertical-align: middle;
 }
 
 /*
