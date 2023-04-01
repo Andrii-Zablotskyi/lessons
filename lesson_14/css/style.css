@@ -97,6 +97,7 @@ body {
   flex: 0 0 33.333%;
 }
 .cards__item {
+  position: relative;
 }
 .item-card {
   display: block;
@@ -121,8 +122,9 @@ body {
 
 .item-card__button {
   position: relative;
+  position: absolute;
   left: 290px;
-  top: -250px;
+  top: 15px;
   padding: 3px 13px;
   background: rgba(33, 37, 41, 0.3);
   border-radius: 3px;
