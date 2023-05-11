@@ -112,21 +112,14 @@ input {
 .checkbox-one {
   margin-bottom: 25px;
 }
-.form__box {
-  /* width: 15px;
-  height: 15px;
-  margin-right: 14px;
-  vertical-align: middle;
-  border: 1px solid #e7e7e7;
-  border-radius: 7px; */
-}
+
 /* Стилізація чекбоксу */
+
 .form__box {
   position: relative;
 }
 .form__box {
   position: absolute;
-  top: 0;
   left: 0;
   width: 0;
   height: 0;
@@ -416,7 +409,6 @@ input {
 }
 .form__input {
   position: absolute;
-  top: 0;
   left: 0;
   width: 0;
   height: 0;
@@ -448,9 +440,6 @@ input {
   background-color: #e5e5e5;
   border: 1px solid #828282;
 }
-
-
-
 .border-bottom {
   width: 443px;
   height: 0px;
@@ -505,13 +494,6 @@ input {
   justify-content: space-between;
   align-items: center;
   flex: 0 0 606px;
-  font-family: "Oswald";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 21px;
-  letter-spacing: 0.5px;
-  text-transform: uppercase;
   margin-bottom: 50px;
 }
 .button-next {
@@ -520,6 +502,13 @@ input {
   align-items: flex-start;
   width: 120px;
   height: 50px;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
   background-color: #000;
   color: #ffffff;
   padding: 13px 45px;
@@ -531,6 +520,13 @@ input {
   align-items: flex-end;
   width: 120px;
   height: 50px;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
   background-color: #e6e0e0;
   color: #000;
   padding: 13px 45px;
