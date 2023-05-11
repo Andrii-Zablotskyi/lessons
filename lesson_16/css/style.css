@@ -499,7 +499,7 @@ color: #000;}
   flex: 0 1 606px;
   margin-bottom: 50px;
 }
-.button-next {
+.butto-next {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -517,7 +517,7 @@ color: #000;}
   padding: 13px 45px;
   transition: color 0.3s;
 }
-.button-back {
+.butto-back {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
@@ -537,16 +537,16 @@ color: #000;}
   transition: color 0.3s;
 }
 
-.button-next:hover {
+.butto-next:hover {
   transition: color 0.3s;
   color: #d7d3d3;
 }
-.button-back:hover {
+.butto-back:hover {
   transition: color 0.3s;
   color: #2b2929;
   background-color: #f5ebeb;
 }
-.button-back:active {
+.butto-back:active {
   transition: color 0.3s;
   border: 1px solid #1f1f1f;
 }
