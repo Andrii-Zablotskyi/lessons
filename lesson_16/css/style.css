@@ -422,8 +422,11 @@ input {
 
 .form__input:checked + .form__label-radio::before {
   border: 3px solid #000;
-  color: #000;
-}
+color: #000;}
+	
+.form__input:checked + .form__label-radio {
+  color: #000;}
+
 .form__label-radio {
   cursor: pointer;
   display: inline-flex;
