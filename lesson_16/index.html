@@ -87,7 +87,7 @@
 
     
     <h2 class="sub-title">Apply Coupon to get discount!</h2>
- 
+    <!-- <form class="form form--cupon" method="post" enctype="multipart/form-data" action=""> -->
 <div class="cupon form__line">
     <div class="form__line form__line--cupon">
       <input class="input input--cupon" autocomplete="off" name="Lastname" placeholder="Coupon code" 
@@ -105,32 +105,31 @@
     <form class="shipping">
     <div class="shipping-form">
 
-      <h2 class="shipping-title">Shipping Address</h2>
-
-
+      
 <div class="shipping-block">
-  
+
+  <h2 class="shipping-title">Shipping Address</h2>
   <div class="one-box">
-    <div class="eaddress">Email Address</div>
+    <label class="eaddress" for="age-1">Email Address</label>
     <div class="form__email">
       <input required="" class="mail" autocomplete="off" name="mail" placeholder="roni_cost@example.com" value=""
-      type="email">
+      type="email" id="age-1">
     </div>
   </div>
 
   <div class="two-box">
-    <div class="password">Password</div>
+    <label class="password" for="age-2">Password</label>
     <div class="form__email">
       <input class="mail" autocomplete="off" name="pass" placeholder="******************" value=""
-      type="password">
+      type="password" id="age-2">
     </div>
   </div>
 
   <div class="thre-box">
-    <div class="zip">Zip/Postal Code</div>
+    <label class="zip" for="age-3">Zip/Postal Code</label>
     <div class="form__email">
       <input class="mail" autocomplete="off" name="code" placeholder="" value=""
-      type="text">
+      type="text" id="age-3">
     </div>
   </div>
 </div>
@@ -144,37 +143,42 @@
     </div>
 
     <div class="border"></div>
+
+
+  </form>
+  <form class="regbox">
+
     <div class="form-regbox">
 
     <div class="row-form">
-      <div class="firstname">First Name</div>
+      <label class="firstname" for="age-01">First Name</label>
       <div class="form__reg">
         <input required="" class="reg" autocomplete="off" name="firstname" placeholder="" value=""
-          type="text">
+          type="text" id="age-01">
       </div>
     </div>
 
       <div class="row-form">
-      <div class="lastname">Last Name</div>
+      <label class="lastname" for="age-02">Last Name</label>
       <div class="form__reg">
           <input required="" class="reg" autocomplete="off" name="lastname" placeholder="" value=""
-          type="text">
+          type="text" id="age-02">
       </div>
       </div>
 
       <div class="row-form">
-      <div class="company">Company</div>
+      <label class="company" for="age-03">Company</label>
       <div class="form__reg">
           <input class="reg" autocomplete="off" name="company" placeholder="" value=""
-          type="text">
+          type="text" id="age-03">
       </div>
     </div>   
 
       <div class="row-form">
-      <div class="s-ddress s-ddress--mark">Street Address</div>
+      <label class="s-ddress s-ddress--mark" for="age-04">Street Address</label>
       <div class="form__reg">
           <input required="" class="reg" autocomplete="off" name="s-ddress" placeholder="" value=""
-          type="text">
+          type="text" id="age-04">
       </div>
     </div>   
 
@@ -182,7 +186,7 @@
       <div class="s-ddress"></div>
       <div class="form__reg">
           <input class="reg" autocomplete="off" name="s-ddress" placeholder="" value=""
-          type="text">
+          type="text" >
       </div>
     </div>   
 
@@ -190,15 +194,15 @@
       <div class="s-ddress"></div>
       <div class="form__reg">
           <input class="reg" autocomplete="off" name="s-ddress" placeholder="" value=""
-          type="text">
+          type="text" >
       </div>
     </div>
 
       <div class="row-form">
-      <div class="country">Country</div>
+      <label class="country" for="age-05">Country</label>
       <div class="form__reg">
           <input required="" class="reg" autocomplete="off" name="Country" placeholder="" value=""
-          type="text">
+          type="text" id="age-05">
       </div>
     </div>
 
@@ -235,8 +239,8 @@
 
     <div class="radio-box">
         <div class="form__radio">
-          <input class="form__input form__input_radio" id="price-02" name="price"
-         value="10" type="radio">
+          <input class="form__input form__input_radio" id="price-02"  
+           name="price" value="10" type="radio" />
           <label class="form__label-radio" for="price-02">$10.00</label>
 	  <div class="radio__text">Table Rate</div>
           <div class="radio__text">Best Way</div>
